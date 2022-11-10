@@ -41,4 +41,14 @@ console.log(newManager);
 let myResult;
 myResult = "pass"; // Valido
 myResult = "incomplete"; // Valido
-myResult = "failure"; // Invalido
+let diceRoll;
+diceRoll = 1; // valido
+diceRoll = 2; // valido
+diceRoll = 7; // invalido
+// Tipos coleccion Matrices(array) y Tuplas(arraycombinados)
+// se pueden escribir de 2 maneras
+let list = [1, 2, 3];
+let list2 = [1, 2, 3];
+//tupla
+let person1 = ["Julio", 36];
+// let person1: [string, number] = ["Julio", 36]; // si se cambia el orden de los valores falla

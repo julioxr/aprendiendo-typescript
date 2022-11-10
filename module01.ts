@@ -68,4 +68,19 @@ type testResult = "pass" | "fail" | "incomplete"; // esto es un string pero es l
 let myResult: testResult;
 myResult = "pass"; // Valido
 myResult = "incomplete"; // Valido
-myResult = "failure"; // Invalido
+// myResult = "failure"; // Invalido
+
+type dice = 1 | 2 | 3 | 4 | 5 | 6;
+let diceRoll: dice;
+diceRoll = 1; // valido
+diceRoll = 2; // valido
+diceRoll = 7; // invalido
+
+// Tipos coleccion Matrices(array) y Tuplas(arraycombinados)
+// se pueden escribir de 2 maneras
+
+let list: number[] = [1, 2, 3];
+let list2: Array<number> = [1, 2, 3];
+//tupla
+let person1: [string, number] = ["Julio", 36];
+// let person1: [string, number] = ["Julio", 36]; // si se cambia el orden de los valores falla
